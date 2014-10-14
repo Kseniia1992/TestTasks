@@ -32,7 +32,7 @@ public class QueensTask {
 	        System.out.println();
 	    }
 	    
-	 //checking all rows and cells to set queen
+	 //checking cells to set queen
 	    public static void setQueen(int r, int n) {
 	        for (int c = 0; c < n; c++) {
 	            if (isSafe(r, c)) {
